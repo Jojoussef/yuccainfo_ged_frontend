@@ -2,8 +2,6 @@
 
 @plugin 'tailwindcss-animate';
 
-@source '../../*.{js,ts,jsx,tsx,mdx}';
-
 @custom-variant dark (&:is(.dark *));
 
 @theme {
@@ -71,14 +69,6 @@
     }
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
     *,
     ::after,
@@ -201,4 +191,34 @@
 
 .animate-scale-in {
     animation: scale-in 0.3s ease-out;
+}
+
+/* Dark mode adjustments */
+.dark .bg-white {
+    background-color: hsl(var(--card));
+    color: hsl(var(--card-foreground));
+}
+
+.dark .bg-f9fafb {
+    background-color: hsl(var(--background));
+}
+
+.dark .bg-f1f5f9 {
+    background-color: hsl(var(--muted));
+}
+
+.dark .text-334155 {
+    color: hsl(var(--foreground));
+}
+
+.dark .border {
+    border-color: hsl(var(--border));
+}
+
+.dark .hover-bg-f1f5f9:hover {
+    background-color: hsl(var(--accent)) !important;
+}
+
+.dark .text-muted-foreground {
+    color: hsl(var(--muted-foreground));
 }
