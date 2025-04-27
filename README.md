@@ -1,5 +1,8 @@
 # YuccaInfo GED Frontend
 
+### Challenge Name: Développer une version innovante d’un système GED (Gestion Electronique de Documents) intelligent, orienté data science
+
+
 A modern document management system built with Next.js and TypeScript.
 
 ## Overview
