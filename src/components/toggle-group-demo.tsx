@@ -20,7 +20,7 @@ export function ToggleGroupDemo() {
                 variant='outline'
                 type='single'
                 defaultValue='all'
-                className='*:data-[slot=toggle-group-item]:w-20'>
+                className='data-[slot=toggle-group-item]:*:w-20'>
                 <ToggleGroupItem value='all' aria-label='Toggle all'>
                     All
                 </ToggleGroupItem>
@@ -34,7 +34,7 @@ export function ToggleGroupDemo() {
                 type='single'
                 size='sm'
                 defaultValue='last-24-hours'
-                className='*:data-[slot=toggle-group-item]:px-3'>
+                className='data-[slot=toggle-group-item]:*:px-3'>
                 <ToggleGroupItem value='last-24-hours' aria-label='Toggle last 24 hours'>
                     Last 24 hours
                 </ToggleGroupItem>
@@ -47,7 +47,7 @@ export function ToggleGroupDemo() {
                 type='single'
                 size='sm'
                 defaultValue='last-24-hours'
-                className='*:data-[slot=toggle-group-item]:px-3'>
+                className='data-[slot=toggle-group-item]:*:px-3'>
                 <ToggleGroupItem value='last-24-hours' aria-label='Toggle last 24 hours'>
                     Last 24 hours
                 </ToggleGroupItem>

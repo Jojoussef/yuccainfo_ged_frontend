@@ -149,7 +149,7 @@ export function FormsDemo() {
                             <RadioGroup defaultValue='starter' className='grid grid-cols-2 gap-3'>
                                 {plans.map((plan) => (
                                     <Label
-                                        className='has-[[data-state=checked]]:border-ring has-[[data-state=checked]]:bg-ring/10 flex items-start gap-3 rounded-lg border p-3'
+                                        className='has-data-[state=checked]:border-ring has-data-[state=checked]:bg-ring/10 flex items-start gap-3 rounded-lg border p-3'
                                         key={plan.id}>
                                         <RadioGroupItem
                                             value={plan.id}

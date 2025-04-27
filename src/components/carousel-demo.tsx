@@ -12,7 +12,7 @@ import {
 export function CarouselDemo() {
     return (
         <div className='w-full flex-col items-center gap-4 md:flex'>
-            <Carousel className='max-w-sm *:data-[slot=carousel-next]:hidden *:data-[slot=carousel-previous]:hidden *:data-[slot=carousel-next]:md:inline-flex *:data-[slot=carousel-previous]:md:inline-flex'>
+            <Carousel className='max-w-sm data-[slot=carousel-next]:*:hidden data-[slot=carousel-previous]:*:hidden md:data-[slot=carousel-next]:*:inline-flex md:data-[slot=carousel-previous]:*:inline-flex'>
                 <CarouselContent>
                     {Array.from({ length: 5 }).map((_, index) => (
                         <CarouselItem key={index}>
@@ -31,7 +31,7 @@ export function CarouselDemo() {
             </Carousel>
 
             <Carousel
-                className='max-w-sm *:data-[slot=carousel-next]:hidden *:data-[slot=carousel-previous]:hidden *:data-[slot=carousel-next]:md:inline-flex *:data-[slot=carousel-previous]:md:inline-flex'
+                className='max-w-sm data-[slot=carousel-next]:*:hidden data-[slot=carousel-previous]:*:hidden md:data-[slot=carousel-next]:*:inline-flex md:data-[slot=carousel-previous]:*:inline-flex'
                 opts={{
                     align: 'start'
                 }}>
@@ -51,7 +51,7 @@ export function CarouselDemo() {
                 <CarouselPrevious />
                 <CarouselNext />
             </Carousel>
-            <Carousel className='max-w-sm *:data-[slot=carousel-next]:hidden *:data-[slot=carousel-previous]:hidden *:data-[slot=carousel-next]:md:inline-flex *:data-[slot=carousel-previous]:md:inline-flex'>
+            <Carousel className='max-w-sm data-[slot=carousel-next]:*:hidden data-[slot=carousel-previous]:*:hidden md:data-[slot=carousel-next]:*:inline-flex md:data-[slot=carousel-previous]:*:inline-flex'>
                 <CarouselContent className='-ml-1'>
                     {Array.from({ length: 5 }).map((_, index) => (
                         <CarouselItem key={index} className='pl-1 md:basis-1/2'>

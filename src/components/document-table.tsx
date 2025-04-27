@@ -99,7 +99,7 @@ export function DocumentTable() {
   return (
     <>
       {/* Desktop Table View */}
-      <div className="hidden md:block rounded-xl border bg-white shadow-sm overflow-hidden animate-fade-in">
+      <div className="hidden md:block rounded-xl border bg-white shadow-xs overflow-hidden animate-fade-in">
         <Table>
           <TableHeader>
             <TableRow className="bg-[#F9FAFB]">
@@ -165,7 +165,7 @@ export function DocumentTable() {
         {documents.map((document) => (
           <div
             key={document.id}
-            className="bg-white rounded-xl border p-4 shadow-sm hover:bg-[#F1F5F9] transition-colors animate-fade-in-up"
+            className="bg-white rounded-xl border p-4 shadow-xs hover:bg-[#F1F5F9] transition-colors animate-fade-in-up"
             onClick={() => handleViewDocument(document)}
           >
             <div className="flex items-start justify-between mb-2">

@@ -20,7 +20,7 @@ export function CalendarDemo() {
 
     return (
         <div className='flex flex-col flex-wrap items-start gap-2 md:flex-row'>
-            <Calendar mode='single' selected={date} onSelect={setDate} className='rounded-md border shadow-sm' />
+            <Calendar mode='single' selected={date} onSelect={setDate} className='rounded-md border shadow-xs' />
             <Calendar
                 mode='range'
                 defaultMonth={dateRange?.from}
@@ -28,7 +28,7 @@ export function CalendarDemo() {
                 onSelect={setDateRange}
                 numberOfMonths={2}
                 disabled={(date) => date > new Date() || date < new Date('1900-01-01')}
-                className='rounded-md border shadow-sm'
+                className='rounded-md border shadow-xs'
             />
             <Calendar
                 mode='range'
@@ -36,7 +36,7 @@ export function CalendarDemo() {
                 selected={range}
                 onSelect={setRange}
                 numberOfMonths={3}
-                className='rounded-md border shadow-sm [&>div]:gap-5'
+                className='rounded-md border shadow-xs [&>div]:gap-5'
             />
         </div>
     );

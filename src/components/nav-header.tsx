@@ -15,7 +15,7 @@ export function NavHeader() {
 
     return (
         <NavigationMenu>
-            <NavigationMenuList className='gap-2 *:data-[slot=navigation-menu-item]:h-7 **:data-[slot=navigation-menu-link]:py-1 **:data-[slot=navigation-menu-link]:font-medium'>
+            <NavigationMenuList className='gap-2 data-[slot=navigation-menu-item]:*:h-7 data-[slot=navigation-menu-link]:**:py-1 data-[slot=navigation-menu-link]:**:font-medium'>
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild data-active={pathname === '/'}>
                         <Link href='/'>Home</Link>

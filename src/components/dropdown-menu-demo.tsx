@@ -308,7 +308,7 @@ function DropdownMenuIconColor() {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align='start'>
-                <DropdownMenuGroup className='*:data-[slot=dropdown-menu-item]:[&>svg]:text-muted-foreground'>
+                <DropdownMenuGroup className='[&>svg]:data-[slot=dropdown-menu-item]:*:text-muted-foreground'>
                     <DropdownMenuItem>
                         <PencilIcon />
                         Edit

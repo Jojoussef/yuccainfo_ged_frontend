@@ -203,7 +203,7 @@ export function FormDemo() {
                     control={form.control}
                     name='mobile'
                     render={({ field }) => (
-                        <FormItem className='flex flex-row items-start gap-3 rounded-md border p-4 shadow-xs'>
+                        <FormItem className='flex flex-row items-start gap-3 rounded-md border p-4 shadow-2xs'>
                             <FormControl>
                                 <Checkbox checked={field.value} onCheckedChange={field.onChange} />
                             </FormControl>
@@ -305,7 +305,7 @@ export function FormDemo() {
                             control={form.control}
                             name='marketing_emails'
                             render={({ field }) => (
-                                <FormItem className='flex flex-row items-start justify-between rounded-lg border p-4 shadow-xs'>
+                                <FormItem className='flex flex-row items-start justify-between rounded-lg border p-4 shadow-2xs'>
                                     <div className='flex flex-col gap-0.5'>
                                         <FormLabel className='leading-normal'>Marketing emails</FormLabel>
                                         <FormDescription className='leading-snug'>
@@ -322,7 +322,7 @@ export function FormDemo() {
                             control={form.control}
                             name='security_emails'
                             render={({ field }) => (
-                                <FormItem className='flex flex-row items-start justify-between rounded-lg border p-4 shadow-xs'>
+                                <FormItem className='flex flex-row items-start justify-between rounded-lg border p-4 shadow-2xs'>
                                     <div className='flex flex-col gap-0.5 opacity-60'>
                                         <FormLabel className='leading-normal'>Security emails</FormLabel>
                                         <FormDescription className='leading-snug'>

@@ -18,7 +18,7 @@ export function ToggleDemo() {
                 <ItalicIcon />
                 Italic
             </Toggle>
-            <Toggle aria-label='Toggle book' className='data-[state=on]:[&_svg]:fill-accent-foreground'>
+            <Toggle aria-label='Toggle book' className='[&_svg]:data-[state=on]:fill-accent-foreground'>
                 <BookmarkIcon />
             </Toggle>
             <Toggle variant='outline' aria-label='Toggle italic' size='sm'>

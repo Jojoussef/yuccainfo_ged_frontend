@@ -21,10 +21,10 @@ export function CollapsibleDemo() {
                     </Button>
                 </CollapsibleTrigger>
             </div>
-            <div className='rounded-md border px-4 py-2 font-mono text-sm shadow-xs'>@radix-ui/primitives</div>
+            <div className='rounded-md border px-4 py-2 font-mono text-sm shadow-2xs'>@radix-ui/primitives</div>
             <CollapsibleContent className='flex flex-col gap-2'>
-                <div className='rounded-md border px-4 py-2 font-mono text-sm shadow-xs'>@radix-ui/colors</div>
-                <div className='rounded-md border px-4 py-2 font-mono text-sm shadow-xs'>@stitches/react</div>
+                <div className='rounded-md border px-4 py-2 font-mono text-sm shadow-2xs'>@radix-ui/colors</div>
+                <div className='rounded-md border px-4 py-2 font-mono text-sm shadow-2xs'>@stitches/react</div>
             </CollapsibleContent>
         </Collapsible>
     );

@@ -69,7 +69,7 @@ export function CardDemo() {
                     </ol>
                 </CardContent>
                 <CardFooter>
-                    <div className='*:data-[slot=avatar]:ring-background flex -space-x-2 *:data-[slot=avatar]:ring-2 *:data-[slot=avatar]:grayscale'>
+                    <div className='data-[slot=avatar]:*:ring-background flex -space-x-2 data-[slot=avatar]:*:ring-2 data-[slot=avatar]:*:grayscale'>
                         <Avatar>
                             <AvatarImage src='https://github.com/shadcn.png' alt='@shadcn' />
                             <AvatarFallback>CN</AvatarFallback>
@@ -112,7 +112,7 @@ export function CardDemo() {
                     <div className='ml-auto font-medium tabular-nums'>$135,000</div>
                 </CardFooter>
             </Card>
-            <div className='flex w-full flex-wrap items-start gap-8 md:*:data-[slot=card]:basis-1/4'>
+            <div className='flex w-full flex-wrap items-start gap-8 md:data-[slot=card]:*:basis-1/4'>
                 <Card>
                     <CardContent className='text-sm'>Content Only</CardContent>
                 </Card>
