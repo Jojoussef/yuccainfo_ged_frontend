@@ -3,6 +3,15 @@
 ### Challenge Name: Développer une version innovante d’un système GED (Gestion Electronique de Documents) intelligent, orienté data science
 
 
+
+### Preview: 
+![image](https://github.com/user-attachments/assets/02b9584f-9020-4712-91c6-3efe4069b531)![image](https://github.com/user-attachments/assets/dfc8ac6f-8dd1-46dd-b84e-e61465e061b0)
+![image](https://github.com/user-attachments/assets/487a272a-dcbb-4001-9c4e-bdb88a3595d0)![image](https://github.com/user-attachments/assets/88d41df0-3b31-4a97-85d3-387740f02747)
+
+
+
+
+
 A modern document management system built with Next.js and TypeScript.
 
 ## Overview
@@ -37,7 +46,7 @@ This project is a frontend application for managing, viewing, and organizing doc
 
 1. Clone the repository
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Jojoussef/yuccainfo_ged_frontend/)
    cd yuccainfo_ged_frontend
    ```
 
