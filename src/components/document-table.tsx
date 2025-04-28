@@ -132,7 +132,7 @@ export function DocumentTable() {
                         {documents.map((document) => (
                             <TableRow
                                 key={document.id}
-                                className='cursor-pointer transition-colors hover:bg-[#F1F5F9]'
+                                className='cursor-pointer transition-colors hover:bg-[#F1F5F9] hover:text-black'
                                 onClick={() => handleViewDocument(document)}>
                                 <TableCell className='font-medium'>{document.title}</TableCell>
                                 <TableCell className='text-muted-foreground max-w-[300px] truncate'>

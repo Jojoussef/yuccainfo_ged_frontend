@@ -103,7 +103,7 @@ export function LoginForm() {
     return (
         <Card className='animate-fade-in-up mx-4 w-full max-w-md rounded-xl shadow-lg'>
             <CardHeader className='space-y-1'>
-                <CardTitle className='text-center text-2xl font-bold'>GED System</CardTitle>
+                <CardTitle className='text-center text-2xl font-bold'>Smart Document Management System</CardTitle>
                 <CardDescription className='text-center'>
                     Enter your credentials to access your documents
                 </CardDescription>
